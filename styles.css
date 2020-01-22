@@ -1,0 +1,188 @@
+header {
+    font-size: 2em;
+}
+
+@media only screen and (min-width: 600px) {
+    header {
+        padding-left: 10%;
+    }
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav>ul {
+    text-align: right;
+}
+
+nav {
+    border-bottom: 20px solid #3498DB;
+    width: 100%;
+    margin-top: 0px;
+    position: fixed;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+nav ul li a {
+    font-size: 14px;
+    padding: 0px 10px 0 0;
+    margin-right: 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    color: #212F3D;
+}
+
+body {
+    margin-top: 0cm;
+}
+
+
+/* Change the color of links on hover */
+
+nav>ul>li>a:hover {
+    box-shadow: 0 0 10px black, insert #E8DAEF;
+    background: rgba(221, 109, 35, 0.678);
+    color: red;
+}
+
+* {
+    background-color: #F8F9F9;
+}
+
+h1 {
+    color: #3498DB;
+    text-align: center;
+    font-size: 50px;
+    padding: 12px 10px 0 0;
+    display: inline-block;
+    padding-right: 7%;
+}
+
+#properties,
+#services,
+#footer {
+    padding-top: 10%;
+}
+
+#home img {
+    height: auto;
+    width: 100%;
+}
+
+#properties h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #3498DB;
+    text-align: center;
+}
+
+#properties p {
+    color: rgb(6, 47, 124);
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#listing,
+#listing2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+
+#one p {
+    background-color: rgba(255, 255, 255, 0.8);
+    position: bottom;
+}
+
+#one,
+#second,
+#third,
+#forth {
+    height: 300px;
+    width: 300px;
+}
+
+#listing img,
+#listing2 img {
+    height: 250px;
+    width: 300px;
+}
+
+#explanation {
+    padding-top: 50px;
+    color: mediumblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#services>p {
+    font-style: italic;
+    color: #1F618D;
+    text-align: center;
+}
+
+#services>h2 {
+    text-align: center;
+    color: #3498DB;
+}
+
+strong {
+    color: #3498DB
+}
+
+#contacts>h3 {
+    color: #3498DB;
+}
+
+#service,
+#service2 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    text-align: center;
+}
+
+#services h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(11, 28, 126, 0.822);
+}
+
+#services p {
+    font-style: italic;
+}
+
+#propertysale,
+#decoration,
+#design,
+#refurbishment,
+#project,
+#management,
+#rental {
+    padding: 10px;
+}
+
+#contacts {
+    text-align: center;
+    margin-top: 5px solid black;
+}
+
+#propertysale img,
+#decoration img,
+#design img,
+#refurbishment img,
+#project img,
+#management img,
+#rental img {
+    height: 15em;
+    width: 17em;
+}
