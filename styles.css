@@ -1,3 +1,8 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
 header {
     font-size: 2em;
 }
@@ -34,17 +39,13 @@ nav ul li {
 }
 
 nav ul li a {
-    font-size: 14px;
-    padding: 0px 10px 0 0;
+    font-size: larger;
+    padding: 0px 10px 0 10px;
     margin-right: 0;
     text-transform: uppercase;
     text-decoration: none;
     display: block;
     color: #212F3D;
-}
-
-body {
-    margin-top: 0cm;
 }
 
 
@@ -57,7 +58,7 @@ nav>ul>li>a:hover {
 }
 
 * {
-    background-color: #F8F9F9;
+    background-color: #EBF5FB;
 }
 
 h1 {
@@ -69,10 +70,8 @@ h1 {
     padding-right: 7%;
 }
 
-#properties,
-#services,
-#footer {
-    padding-top: 10%;
+#properties {
+    padding-top: 7%;
 }
 
 #home img {
@@ -87,102 +86,115 @@ h1 {
 }
 
 #properties p {
+    font-size: large;
     color: rgb(6, 47, 124);
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-#listing,
-#listing2 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    text-align: center;
+#sale1,
+#sale2,
+#sale3,
+#sale4 {
+    height: 25em;
+    width: 300px;
 }
 
-#one p {
-    background-color: rgba(255, 255, 255, 0.8);
-    position: bottom;
+#listing p,
+#listing2 p {
+    font-size: medium;
+}
+
+#listing,
+#listing2 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
 }
 
 #one,
 #second,
 #third,
 #forth {
-    height: 300px;
+    height: 25em;
     width: 300px;
 }
 
 #listing img,
 #listing2 img {
-    height: 250px;
-    width: 300px;
+    height: 300px;
+    width: 350px;
+    padding: 10px;
 }
 
+
+}
 #explanation {
+    text-align: center;
+    font-size: large;
     padding-top: 50px;
     color: mediumblue;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
+#services {
+    margin-top: 10%;
+}
 #services>p {
     font-style: italic;
     color: #1F618D;
     text-align: center;
 }
-
 #services>h2 {
     text-align: center;
     color: #3498DB;
 }
-
 strong {
     color: #3498DB
 }
-
 #contacts>h3 {
     color: #3498DB;
 }
-
 #service,
 #service2 {
+    width: 100%;
     display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
+    flex-wrap: wrap;
     text-align: center;
+    justify-content: center;
 }
-
 #services h3 {
     font-family: Arial, Helvetica, sans-serif;
     color: rgba(11, 28, 126, 0.822);
+    font-size: x-large;
 }
-
 #services p {
     font-style: italic;
+    font-size: large;
 }
-
-#propertysale,
-#decoration,
-#design,
-#refurbishment,
-#project,
-#management,
-#rental {
-    padding: 10px;
-}
-
 #contacts {
     text-align: center;
     margin-top: 5px solid black;
+    font-size: large;
+    background-color: darkcyan;
 }
-
 #propertysale img,
 #decoration img,
 #design img,
-#refurbishment img,
 #project img,
 #management img,
 #rental img {
-    height: 15em;
-    width: 17em;
+    height: 400px;
+    width: 390px;
+}
+#service div,
+#service2 div {
+    width: 420px;
+    text-align: center;
+}
+#service,
+#service2 {
+    display: flex;
+    flex-direction: row;
 }
